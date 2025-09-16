@@ -1,4 +1,3 @@
-import math
 import random
 num = random.randint(1, 10)
 correct = False
