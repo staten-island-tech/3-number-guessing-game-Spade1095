@@ -1,5 +1,6 @@
 import random
-num = random.randint(1, 10)
+range = int(input("What range do you want to guess100 from? "))
+num = random.randint(1, range)
 correct = False
 numOfGuess = 0
 guess = 0
