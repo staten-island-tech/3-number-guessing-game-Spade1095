@@ -4,7 +4,7 @@ correct = False
 numOfGuess = 0
 guess = 0
 while correct == False:
-    guess = int(input("What is your guess"))
+    guess = int(input("What is your guess "))
     numOfGuess = numOfGuess + 1
     if guess == num:
         print("Thats correct!")
